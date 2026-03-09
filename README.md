@@ -38,7 +38,7 @@ A robust lab requires predictable, static routing to ensure persistent Out-of-Ba
 1. Wiped host machine and flashed Proxmox VE.
 2. Configured the Linux networking stack, binding the physical NIC to a virtual bridge (`vmbr0`).
 3. Established a static IP assignment (`10.0.10.190`) via the host's `/etc/network/interfaces` to ensure persistent out-of-band management access.
-(Screenshots/prox.jpeg)
+!(Screenshots/prox.jpeg)
 ### Phase 2: Remote Compute Engine Initialization
 1. Deployed the GNS3 Server as an isolated Virtual Machine (ID: 100) within Proxmox.
 2. Sized the VM to **20GB RAM and 4 vCPUs**, optimizing the host-to-guest resource ratio.
