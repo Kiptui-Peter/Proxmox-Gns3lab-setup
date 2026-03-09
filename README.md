@@ -48,7 +48,7 @@ A robust lab requires predictable, static routing to ensure persistent Out-of-Ba
 ### Phase 3: VNF Integration
 1. Manually imported and configured raw disk images (`.img`) for MikroTik CHR.
 2. Deployed Docker-based network automation clients to serve as lightweight test endpoints, consuming <50MB RAM each compared to 2GB+ for full OS VMs.
-![Operational Topology](Screenshots/live-connectivity.png)
+![Operational Topology](Screenshots/live.png)
 
 ---
 
